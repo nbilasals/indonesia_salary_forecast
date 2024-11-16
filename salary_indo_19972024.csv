@@ -1,0 +1,947 @@
+REGION,SALARY,YEAR
+Aceh,128000,1997
+Aceh,147000,1998
+Aceh,171000,1999
+Aceh,265000,2000
+Aceh,300000,2001
+Aceh,330000,2002
+Aceh,425000,2003
+Aceh,550000,2004
+Aceh,620000,2005
+Aceh,820000,2006
+Aceh,850000,2007
+Aceh,1000000,2008
+Aceh,1200000,2009
+Aceh,1300000,2010
+Aceh,1350000,2011
+Aceh,1400000,2012
+Aceh,1550000,2013
+Aceh,1750000,2014
+Aceh,1900000,2015
+Aceh,2118500,2016
+Aceh,2500000,2017
+Aceh,2700000,2018
+Aceh,2916810,2019
+Aceh,3165031,2020
+Aceh,3165031,2021
+Aceh,3166460,2022
+Aceh,3413666,2023
+Aceh,3460672,2024
+Bali,141500,1997
+Bali,162500,1998
+Bali,187000,1999
+Bali,214000,2000
+Bali,309800,2001
+Bali,341000,2002
+Bali,410000,2003
+Bali,425000,2004
+Bali,447500,2005
+Bali,510000,2006
+Bali,622000,2007
+Bali,682650,2008
+Bali,760000,2009
+Bali,829316,2010
+Bali,890000,2011
+Bali,967500,2012
+Bali,1181000,2013
+Bali,1542600,2014
+Bali,1621172,2015
+Bali,1807600,2016
+Bali,1956727,2017
+Bali,2127157,2018
+Bali,2297969,2019
+Bali,2494000,2020
+Bali,2494000,2021
+Bali,2516971,2022
+Bali,2713672,2023
+Bali,2813672,2024
+Bangka Belitung,3498479,2023
+Bangka Belitung,3640000,2024
+Banten,176800,1998
+Banten,208800,1999
+Banten,230000,2000
+Banten,245000,2001
+Banten,360000,2002
+Banten,475000,2003
+Banten,515000,2004
+Banten,585000,2005
+Banten,661613,2006
+Banten,746500,2007
+Banten,837000,2008
+Banten,917500,2009
+Banten,955300,2010
+Banten,1000000,2011
+Banten,1042000,2012
+Banten,1170000,2013
+Banten,1325000,2014
+Banten,1600000,2015
+Banten,1784000,2016
+Banten,1931180,2017
+Banten,2099385,2018
+Banten,2267990,2019
+Banten,2460997,2020
+Banten,2460996,2021
+Banten,2501203,2022
+Banten,2661280,2023
+Banten,2727812,2024
+Bengkulu,127500,1997
+Bengkulu,146500,1998
+Bengkulu,150000,1999
+Bengkulu,173000,2000
+Bengkulu,240000,2001
+Bengkulu,295000,2002
+Bengkulu,330000,2003
+Bengkulu,363000,2004
+Bengkulu,430000,2005
+Bengkulu,516000,2006
+Bengkulu,644838,2007
+Bengkulu,690000,2008
+Bengkulu,735000,2009
+Bengkulu,780000,2010
+Bengkulu,815000,2011
+Bengkulu,930000,2012
+Bengkulu,1200000,2013
+Bengkulu,1350000,2014
+Bengkulu,1500000,2015
+Bengkulu,1605000,2016
+Bengkulu,1730000,2017
+Bengkulu,1888741,2018
+Bengkulu,2040407,2019
+Bengkulu,2213604,2020
+Bengkulu,2888564,2021
+Bengkulu,2238094,2022
+Bengkulu,2418280,2023
+Bengkulu,2507079,2024
+DKI Jakarta,4900798,2023
+DKI Jakarta,5067381,2024
+Daerah Istimewa Yogyakarta,1981782,2023
+Daerah Istimewa Yogyakarta,2125897,2024
+Di Yogyakarta,106500,1997
+Di Yogyakarta,122500,1998
+Di Yogyakarta,130000,1999
+Di Yogyakarta,194500,2000
+Di Yogyakarta,237500,2001
+Di Yogyakarta,321800,2002
+Di Yogyakarta,360000,2003
+Di Yogyakarta,365000,2004
+Di Yogyakarta,400000,2005
+Di Yogyakarta,460000,2006
+Di Yogyakarta,500000,2007
+Di Yogyakarta,586000,2008
+Di Yogyakarta,700000,2009
+Di Yogyakarta,745694,2010
+Di Yogyakarta,808000,2011
+Di Yogyakarta,892660,2012
+Di Yogyakarta,947114,2013
+Di Yogyakarta,988500,2014
+Di Yogyakarta,988500,2015
+Di Yogyakarta,988500,2016
+Di Yogyakarta,1337645,2017
+Di Yogyakarta,1454154,2018
+Di Yogyakarta,1570923,2019
+Di Yogyakarta,1704608,2020
+Di Yogyakarta,1765000,2021
+Di Yogyakarta,1840951,2022
+Dki Jakarta,172500,1997
+Dki Jakarta,198500,1998
+Dki Jakarta,231000,1999
+Dki Jakarta,286000,2000
+Dki Jakarta,426300,2001
+Dki Jakarta,591300,2002
+Dki Jakarta,631600,2003
+Dki Jakarta,671600,2004
+Dki Jakarta,711843,2005
+Dki Jakarta,819100,2006
+Dki Jakarta,900560,2007
+Dki Jakarta,972604,2008
+Dki Jakarta,1069865,2009
+Dki Jakarta,1118009,2010
+Dki Jakarta,1290000,2011
+Dki Jakarta,1529150,2012
+Dki Jakarta,2200000,2013
+Dki Jakarta,2441000,2014
+Dki Jakarta,2700000,2015
+Dki Jakarta,3100000,2016
+Dki Jakarta,3355750,2017
+Dki Jakarta,3648036,2018
+Dki Jakarta,3940973,2019
+Dki Jakarta,4276350,2020
+Dki Jakarta,4416186,2021
+Dki Jakarta,4452724,2022
+Gorontalo,135500,1998
+Gorontalo,155000,1999
+Gorontalo,186000,2000
+Gorontalo,372000,2001
+Gorontalo,375000,2002
+Gorontalo,410000,2003
+Gorontalo,430000,2004
+Gorontalo,435000,2005
+Gorontalo,527000,2006
+Gorontalo,560000,2007
+Gorontalo,600000,2008
+Gorontalo,675000,2009
+Gorontalo,710000,2010
+Gorontalo,762500,2011
+Gorontalo,837500,2012
+Gorontalo,1175000,2013
+Gorontalo,1325000,2014
+Gorontalo,1600000,2015
+Gorontalo,1875000,2016
+Gorontalo,2030000,2017
+Gorontalo,2206813,2018
+Gorontalo,2384020,2019
+Gorontalo,2788826,2020
+Gorontalo,2788826,2021
+Gorontalo,2800580,2022
+Gorontalo,2989350,2023
+Gorontalo,3025100,2024
+Indonesia,135000,1997
+Indonesia,150900,1998
+Indonesia,175400,1999
+Indonesia,216500,2000
+Indonesia,290500,2001
+Indonesia,362700,2002
+Indonesia,414700,2003
+Indonesia,458500,2004
+Indonesia,507697,2005
+Indonesia,602702,2006
+Indonesia,672480,2007
+Indonesia,745709,2008
+Indonesia,841530,2009
+Indonesia,908824,2010
+Indonesia,988829,2011
+Indonesia,1088903,2012
+Indonesia,1296908,2013
+Indonesia,1584391,2014
+Indonesia,1790342,2015
+Indonesia,1997819,2016
+Indonesia,2020500,2017
+Indonesia,2268874,2018
+Indonesia,2455662,2019
+Indonesia,2672371,2020
+Indonesia,2608093,2021
+Indonesia,2644709,2022
+Jambi,119500,1997
+Jambi,137500,1998
+Jambi,150000,1999
+Jambi,173000,2000
+Jambi,245000,2001
+Jambi,304000,2002
+Jambi,390000,2003
+Jambi,425000,2004
+Jambi,485000,2005
+Jambi,563000,2006
+Jambi,658000,2007
+Jambi,724000,2008
+Jambi,800000,2009
+Jambi,900000,2010
+Jambi,1028000,2011
+Jambi,1142500,2012
+Jambi,1300000,2013
+Jambi,1502300,2014
+Jambi,1710000,2015
+Jambi,1906650,2016
+Jambi,2063000,2017
+Jambi,2243719,2018
+Jambi,2423889,2019
+Jambi,2630162,2020
+Jambi,3230023,2021
+Jambi,2649034,2022
+Jambi,2943000,2023
+Jambi,3037121,2024
+Jawa Barat,172500,1997
+Jawa Barat,176800,1998
+Jawa Barat,208800,1999
+Jawa Barat,230000,2000
+Jawa Barat,245000,2001
+Jawa Barat,280800,2002
+Jawa Barat,320000,2003
+Jawa Barat,366500,2004
+Jawa Barat,408260,2005
+Jawa Barat,447654,2006
+Jawa Barat,516840,2007
+Jawa Barat,568193,2008
+Jawa Barat,628191,2009
+Jawa Barat,671500,2010
+Jawa Barat,732000,2011
+Jawa Barat,780000,2012
+Jawa Barat,850000,2013
+Jawa Barat,1000000,2014
+Jawa Barat,1000000,2015
+Jawa Barat,2250000,2016
+Jawa Barat,1420624,2017
+Jawa Barat,1544361,2018
+Jawa Barat,1668373,2019
+Jawa Barat,1810351,2020
+Jawa Barat,1810351,2021
+Jawa Barat,1841487,2022
+Jawa Barat,1986670,2023
+Jawa Barat,2057495,2024
+Jawa Tengah,113000,1997
+Jawa Tengah,130000,1998
+Jawa Tengah,153000,1999
+Jawa Tengah,185000,2000
+Jawa Tengah,245000,2001
+Jawa Tengah,314500,2002
+Jawa Tengah,340400,2003
+Jawa Tengah,365000,2004
+Jawa Tengah,390000,2005
+Jawa Tengah,450000,2006
+Jawa Tengah,500000,2007
+Jawa Tengah,547000,2008
+Jawa Tengah,575000,2009
+Jawa Tengah,660000,2010
+Jawa Tengah,675000,2011
+Jawa Tengah,765000,2012
+Jawa Tengah,830000,2013
+Jawa Tengah,910000,2014
+Jawa Tengah,910000,2015
+Jawa Tengah,910000,2016
+Jawa Tengah,1367000,2017
+Jawa Tengah,1486065,2018
+Jawa Tengah,1605396,2019
+Jawa Tengah,1742015,2020
+Jawa Tengah,1798979,2021
+Jawa Tengah,1813011,2022
+Jawa Tengah,1958169,2023
+Jawa Tengah,2036947,2024
+Jawa Timur,132500,1997
+Jawa Timur,143000,1998
+Jawa Timur,170500,1999
+Jawa Timur,214500,2000
+Jawa Timur,220000,2001
+Jawa Timur,245000,2002
+Jawa Timur,274000,2003
+Jawa Timur,310000,2004
+Jawa Timur,340000,2005
+Jawa Timur,390000,2006
+Jawa Timur,448500,2007
+Jawa Timur,500000,2008
+Jawa Timur,570000,2009
+Jawa Timur,630000,2010
+Jawa Timur,705000,2011
+Jawa Timur,745000,2012
+Jawa Timur,866250,2013
+Jawa Timur,1000000,2014
+Jawa Timur,1000000,2015
+Jawa Timur,1000000,2016
+Jawa Timur,1388000,2017
+Jawa Timur,1508895,2018
+Jawa Timur,1630059,2019
+Jawa Timur,1768777,2020
+Jawa Timur,1868777,2021
+Jawa Timur,1891567,2022
+Jawa Timur,2040244,2023
+Jawa Timur,2165244,2024
+Kalimantan Barat,126500,1997
+Kalimantan Barat,145500,1998
+Kalimantan Barat,175000,1999
+Kalimantan Barat,228000,2000
+Kalimantan Barat,304500,2001
+Kalimantan Barat,380000,2002
+Kalimantan Barat,400000,2003
+Kalimantan Barat,420000,2004
+Kalimantan Barat,445200,2005
+Kalimantan Barat,512000,2006
+Kalimantan Barat,560000,2007
+Kalimantan Barat,645000,2008
+Kalimantan Barat,705000,2009
+Kalimantan Barat,741000,2010
+Kalimantan Barat,802500,2011
+Kalimantan Barat,900000,2012
+Kalimantan Barat,1060000,2013
+Kalimantan Barat,1380000,2014
+Kalimantan Barat,1560000,2015
+Kalimantan Barat,1739400,2016
+Kalimantan Barat,1882900,2017
+Kalimantan Barat,2046900,2018
+Kalimantan Barat,2211500,2019
+Kalimantan Barat,2399699,2020
+Kalimantan Barat,2399698,2021
+Kalimantan Barat,2434328,2022
+Kalimantan Barat,2608601,2023
+Kalimantan Barat,2702616,2024
+Kalimantan Selatan,125000,1997
+Kalimantan Selatan,144000,1998
+Kalimantan Selatan,166000,1999
+Kalimantan Selatan,200000,2000
+Kalimantan Selatan,295000,2001
+Kalimantan Selatan,377500,2002
+Kalimantan Selatan,425000,2003
+Kalimantan Selatan,482200,2004
+Kalimantan Selatan,536300,2005
+Kalimantan Selatan,629000,2006
+Kalimantan Selatan,745000,2007
+Kalimantan Selatan,825000,2008
+Kalimantan Selatan,930000,2009
+Kalimantan Selatan,1024500,2010
+Kalimantan Selatan,1126000,2011
+Kalimantan Selatan,1225000,2012
+Kalimantan Selatan,1337500,2013
+Kalimantan Selatan,1620000,2014
+Kalimantan Selatan,1870000,2015
+Kalimantan Selatan,2085050,2016
+Kalimantan Selatan,2258000,2017
+Kalimantan Selatan,2454671,2018
+Kalimantan Selatan,2651782,2019
+Kalimantan Selatan,2877449,2020
+Kalimantan Selatan,2877448,2021
+Kalimantan Selatan,2906473,2022
+Kalimantan Selatan,3149977,2023
+Kalimantan Selatan,3282812,2024
+Kalimantan Tengah,138000,1997
+Kalimantan Tengah,158500,1998
+Kalimantan Tengah,195000,1999
+Kalimantan Tengah,285000,2000
+Kalimantan Tengah,362000,2001
+Kalimantan Tengah,362000,2002
+Kalimantan Tengah,425000,2003
+Kalimantan Tengah,482300,2004
+Kalimantan Tengah,523698,2005
+Kalimantan Tengah,634260,2006
+Kalimantan Tengah,665973,2007
+Kalimantan Tengah,765868,2008
+Kalimantan Tengah,873089,2009
+Kalimantan Tengah,986590,2010
+Kalimantan Tengah,1134580,2011
+Kalimantan Tengah,1327459,2012
+Kalimantan Tengah,1553127,2013
+Kalimantan Tengah,1723970,2014
+Kalimantan Tengah,1896367,2015
+Kalimantan Tengah,2057558,2016
+Kalimantan Tengah,2222986,2017
+Kalimantan Tengah,2421305,2018
+Kalimantan Tengah,2663435,2019
+Kalimantan Tengah,2903145,2020
+Kalimantan Tengah,2903144,2021
+Kalimantan Tengah,2922516,2022
+Kalimantan Tengah,3181013,2023
+Kalimantan Tengah,3261616,2024
+Kalimantan Timur,153000,1997
+Kalimantan Timur,176000,1998
+Kalimantan Timur,194000,1999
+Kalimantan Timur,233000,2000
+Kalimantan Timur,300000,2001
+Kalimantan Timur,500000,2002
+Kalimantan Timur,540000,2003
+Kalimantan Timur,572700,2004
+Kalimantan Timur,600000,2005
+Kalimantan Timur,701640,2006
+Kalimantan Timur,766500,2007
+Kalimantan Timur,889654,2008
+Kalimantan Timur,955000,2009
+Kalimantan Timur,1002000,2010
+Kalimantan Timur,1084000,2011
+Kalimantan Timur,1177000,2012
+Kalimantan Timur,1752073,2013
+Kalimantan Timur,1886315,2014
+Kalimantan Timur,2026126,2015
+Kalimantan Timur,2161253,2016
+Kalimantan Timur,339556,2017
+Kalimantan Timur,2543332,2018
+Kalimantan Timur,2747561,2019
+Kalimantan Timur,2981379,2020
+Kalimantan Timur,2981378,2021
+Kalimantan Timur,3014497,2022
+Kalimantan Timur,3201396,2023
+Kalimantan Timur,3360858,2024
+Kalimantan Utara,2026126,2015
+Kalimantan Utara,2175340,2016
+Kalimantan Utara,2358800,2017
+Kalimantan Utara,2559903,2018
+Kalimantan Utara,2765463,2019
+Kalimantan Utara,3000804,2020
+Kalimantan Utara,3000804,2021
+Kalimantan Utara,3016738,2022
+Kalimantan Utara,3251702,2023
+Kalimantan Utara,3361653,2024
+Kep. Bangka Belitung,146500,1998
+Kep. Bangka Belitung,170000,1999
+Kep. Bangka Belitung,190000,2000
+Kep. Bangka Belitung,255000,2001
+Kep. Bangka Belitung,345000,2002
+Kep. Bangka Belitung,379500,2003
+Kep. Bangka Belitung,447900,2004
+Kep. Bangka Belitung,560000,2005
+Kep. Bangka Belitung,640000,2006
+Kep. Bangka Belitung,720000,2007
+Kep. Bangka Belitung,813000,2008
+Kep. Bangka Belitung,850000,2009
+Kep. Bangka Belitung,910000,2010
+Kep. Bangka Belitung,1024000,2011
+Kep. Bangka Belitung,1110000,2012
+Kep. Bangka Belitung,1265000,2013
+Kep. Bangka Belitung,1640000,2014
+Kep. Bangka Belitung,2100000,2015
+Kep. Bangka Belitung,2341500,2016
+Kep. Bangka Belitung,2534673,2017
+Kep. Bangka Belitung,2755444,2018
+Kep. Bangka Belitung,2976706,2019
+Kep. Bangka Belitung,3230024,2020
+Kep. Bangka Belitung,2215000,2021
+Kep. Bangka Belitung,3264881,2022
+Kep. Riau,235000,1997
+Kep. Riau,174000,1998
+Kep. Riau,218000,1999
+Kep. Riau,300000,2000
+Kep. Riau,421500,2001
+Kep. Riau,421500,2002
+Kep. Riau,421500,2003
+Kep. Riau,421500,2004
+Kep. Riau,557000,2005
+Kep. Riau,760000,2006
+Kep. Riau,805000,2007
+Kep. Riau,833000,2008
+Kep. Riau,892000,2009
+Kep. Riau,925000,2010
+Kep. Riau,975000,2011
+Kep. Riau,1015000,2012
+Kep. Riau,1365087,2013
+Kep. Riau,1665000,2014
+Kep. Riau,1954000,2015
+Kep. Riau,2178710,2016
+Kep. Riau,2358454,2017
+Kep. Riau,2563875,2018
+Kep. Riau,2769754,2019
+Kep. Riau,3005460,2020
+Kep. Riau,2630162,2021
+Kep. Riau,3050172,2022
+Kepulauan Riau,3279194,2023
+Kepulauan Riau,3402492,2024
+Lampung,126000,1997
+Lampung,145000,1998
+Lampung,160000,1999
+Lampung,192000,2000
+Lampung,240000,2001
+Lampung,310000,2002
+Lampung,350000,2003
+Lampung,377500,2004
+Lampung,405000,2005
+Lampung,505000,2006
+Lampung,555000,2007
+Lampung,617000,2008
+Lampung,691000,2009
+Lampung,767500,2010
+Lampung,855000,2011
+Lampung,975000,2012
+Lampung,1150000,2013
+Lampung,1399037,2014
+Lampung,1581000,2015
+Lampung,1763000,2016
+Lampung,1908447,2017
+Lampung,2074673,2018
+Lampung,2241270,2019
+Lampung,2432002,2020
+Lampung,2432001,2021
+Lampung,2440486,2022
+Lampung,2633284,2023
+Lampung,2716497,2024
+Maluku,136000,1997
+Maluku,156500,1998
+Maluku,180000,1999
+Maluku,180000,2000
+Maluku,230000,2001
+Maluku,285000,2002
+Maluku,370000,2003
+Maluku,450000,2004
+Maluku,500000,2005
+Maluku,575000,2006
+Maluku,635000,2007
+Maluku,700000,2008
+Maluku,775000,2009
+Maluku,840000,2010
+Maluku,900000,2011
+Maluku,975000,2012
+Maluku,1275000,2013
+Maluku,1415000,2014
+Maluku,1650000,2015
+Maluku,1775000,2016
+Maluku,1925000,2017
+Maluku,2222220,2018
+Maluku,2400664,2019
+Maluku,2604961,2020
+Maluku,2721530,2021
+Maluku,2619312,2022
+Maluku,2812827,2023
+Maluku,2949953,2024
+Maluku Utara,156500,1998
+Maluku Utara,180000,1999
+Maluku Utara,180000,2000
+Maluku Utara,230000,2001
+Maluku Utara,322000,2002
+Maluku Utara,370000,2003
+Maluku Utara,400000,2004
+Maluku Utara,440000,2005
+Maluku Utara,528000,2006
+Maluku Utara,660000,2007
+Maluku Utara,700000,2008
+Maluku Utara,770000,2009
+Maluku Utara,847000,2010
+Maluku Utara,889350,2011
+Maluku Utara,960498,2012
+Maluku Utara,1200622,2013
+Maluku Utara,1440746,2014
+Maluku Utara,1577617,2015
+Maluku Utara,1681266,2016
+Maluku Utara,1975000,2017
+Maluku Utara,2320803,2018
+Maluku Utara,2508091,2019
+Maluku Utara,2721530,2020
+Maluku Utara,2604961,2021
+Maluku Utara,2862231,2022
+Maluku Utara,2976720,2023
+Maluku Utara,3200000,2024
+Nusa Tenggara Barat,108000,1997
+Nusa Tenggara Barat,124000,1998
+Nusa Tenggara Barat,145000,1999
+Nusa Tenggara Barat,180000,2000
+Nusa Tenggara Barat,240000,2001
+Nusa Tenggara Barat,320000,2002
+Nusa Tenggara Barat,375000,2003
+Nusa Tenggara Barat,412500,2004
+Nusa Tenggara Barat,475000,2005
+Nusa Tenggara Barat,550000,2006
+Nusa Tenggara Barat,645000,2007
+Nusa Tenggara Barat,730000,2008
+Nusa Tenggara Barat,832500,2009
+Nusa Tenggara Barat,890775,2010
+Nusa Tenggara Barat,950000,2011
+Nusa Tenggara Barat,1000000,2012
+Nusa Tenggara Barat,1100000,2013
+Nusa Tenggara Barat,1210000,2014
+Nusa Tenggara Barat,1330000,2015
+Nusa Tenggara Barat,1482950,2016
+Nusa Tenggara Barat,1631245,2017
+Nusa Tenggara Barat,1825000,2018
+Nusa Tenggara Barat,2012610,2019
+Nusa Tenggara Barat,2183883,2020
+Nusa Tenggara Barat,2183883,2021
+Nusa Tenggara Barat,2207212,2022
+Nusa Tenggara Barat,2371407,2023
+Nusa Tenggara Barat,2444067,2024
+Nusa Tenggara Timur,106000,1997
+Nusa Tenggara Timur,122500,1998
+Nusa Tenggara Timur,143000,1999
+Nusa Tenggara Timur,184000,2000
+Nusa Tenggara Timur,275000,2001
+Nusa Tenggara Timur,330000,2002
+Nusa Tenggara Timur,350000,2003
+Nusa Tenggara Timur,400000,2004
+Nusa Tenggara Timur,450000,2005
+Nusa Tenggara Timur,550000,2006
+Nusa Tenggara Timur,600000,2007
+Nusa Tenggara Timur,650000,2008
+Nusa Tenggara Timur,725000,2009
+Nusa Tenggara Timur,800000,2010
+Nusa Tenggara Timur,850000,2011
+Nusa Tenggara Timur,925000,2012
+Nusa Tenggara Timur,1010000,2013
+Nusa Tenggara Timur,1150000,2014
+Nusa Tenggara Timur,1250000,2015
+Nusa Tenggara Timur,1425000,2016
+Nusa Tenggara Timur,1650000,2017
+Nusa Tenggara Timur,1660000,2018
+Nusa Tenggara Timur,1795000,2019
+Nusa Tenggara Timur,1950000,2020
+Nusa Tenggara Timur,1950000,2021
+Nusa Tenggara Timur,1975000,2022
+Nusa Tenggara Timur,2123994,2023
+Nusa Tenggara Timur,2186826,2024
+Papua,170000,1997
+Papua,195500,1998
+Papua,225000,1999
+Papua,315000,2000
+Papua,400000,2001
+Papua,530000,2002
+Papua,600000,2003
+Papua,650000,2004
+Papua,700000,2005
+Papua,822500,2006
+Papua,987000,2007
+Papua,1105500,2008
+Papua,1216100,2009
+Papua,1316500,2010
+Papua,1403000,2011
+Papua,1585000,2012
+Papua,1710000,2013
+Papua,2040000,2014
+Papua,2193000,2015
+Papua,2435000,2016
+Papua,2663646,2017
+Papua,3000000,2018
+Papua,3240900,2019
+Papua,3516700,2020
+Papua,3516700,2021
+Papua,3561932,2022
+Papua,3864696,2023
+Papua,4024270,2024
+Papua Barat,822500,2006
+Papua Barat,987000,2007
+Papua Barat,1105500,2008
+Papua Barat,1180000,2009
+Papua Barat,1210000,2010
+Papua Barat,1410000,2011
+Papua Barat,1450000,2012
+Papua Barat,1720000,2013
+Papua Barat,1870000,2014
+Papua Barat,2015000,2015
+Papua Barat,2237000,2016
+Papua Barat,2416855,2017
+Papua Barat,2667000,2018
+Papua Barat,2934500,2019
+Papua Barat,3134600,2020
+Papua Barat,3134600,2021
+Papua Barat,3200000,2022
+Papua Barat,3282000,2023
+Papua Barat,3393000,2024
+Papua Barat Daya,3864696,2023
+Papua Barat Daya,4024270,2024
+Papua Pegunungan,3864696,2023
+Papua Pegunungan,4024270,2024
+Papua Selatan,3864696,2023
+Papua Selatan,4024270,2024
+Papua Tengah,3864700,2023
+Papua Tengah,4024270,2024
+Riau,151500,1997
+Riau,174000,1998
+Riau,218000,1999
+Riau,250700,2000
+Riau,329000,2001
+Riau,394000,2002
+Riau,437500,2003
+Riau,476900,2004
+Riau,551500,2005
+Riau,637000,2006
+Riau,710000,2007
+Riau,800000,2008
+Riau,901600,2009
+Riau,1016000,2010
+Riau,1120000,2011
+Riau,1238000,2012
+Riau,1400000,2013
+Riau,1700000,2014
+Riau,1878000,2015
+Riau,2095000,2016
+Riau,2266722,2017
+Riau,2464154,2018
+Riau,2662026,2019
+Riau,2888564,2020
+Riau,3005460,2021
+Riau,2938564,2022
+Riau,3191662,2023
+Riau,3294625,2024
+Sulawesi Barat,612000,2006
+Sulawesi Barat,691464,2007
+Sulawesi Barat,760500,2008
+Sulawesi Barat,909400,2009
+Sulawesi Barat,944200,2010
+Sulawesi Barat,1006000,2011
+Sulawesi Barat,1127000,2012
+Sulawesi Barat,1165000,2013
+Sulawesi Barat,1400000,2014
+Sulawesi Barat,1655500,2015
+Sulawesi Barat,1864000,2016
+Sulawesi Barat,2017780,2017
+Sulawesi Barat,2193530,2018
+Sulawesi Barat,2381000,2019
+Sulawesi Barat,2678863,2020
+Sulawesi Barat,2678863,2021
+Sulawesi Barat,2678863,2022
+Sulawesi Barat,2871794,2023
+Sulawesi Barat,2914958,2024
+Sulawesi Selatan,112500,1997
+Sulawesi Selatan,129500,1998
+Sulawesi Selatan,148000,1999
+Sulawesi Selatan,200000,2000
+Sulawesi Selatan,300000,2001
+Sulawesi Selatan,375000,2002
+Sulawesi Selatan,415000,2003
+Sulawesi Selatan,455000,2004
+Sulawesi Selatan,510000,2005
+Sulawesi Selatan,612000,2006
+Sulawesi Selatan,673200,2007
+Sulawesi Selatan,740520,2008
+Sulawesi Selatan,905000,2009
+Sulawesi Selatan,1000000,2010
+Sulawesi Selatan,1100000,2011
+Sulawesi Selatan,1200000,2012
+Sulawesi Selatan,1440000,2013
+Sulawesi Selatan,1800000,2014
+Sulawesi Selatan,2000000,2015
+Sulawesi Selatan,2250000,2016
+Sulawesi Selatan,2500000,2017
+Sulawesi Selatan,2647767,2018
+Sulawesi Selatan,2860382,2019
+Sulawesi Selatan,3103800,2020
+Sulawesi Selatan,3165876,2021
+Sulawesi Selatan,3165876,2022
+Sulawesi Selatan,3385145,2023
+Sulawesi Selatan,3434298,2024
+Sulawesi Tengah,106500,1997
+Sulawesi Tengah,122500,1998
+Sulawesi Tengah,150000,1999
+Sulawesi Tengah,203000,2000
+Sulawesi Tengah,245000,2001
+Sulawesi Tengah,350000,2002
+Sulawesi Tengah,410000,2003
+Sulawesi Tengah,450000,2004
+Sulawesi Tengah,490000,2005
+Sulawesi Tengah,575000,2006
+Sulawesi Tengah,615000,2007
+Sulawesi Tengah,670000,2008
+Sulawesi Tengah,720000,2009
+Sulawesi Tengah,777500,2010
+Sulawesi Tengah,827500,2011
+Sulawesi Tengah,885000,2012
+Sulawesi Tengah,995000,2013
+Sulawesi Tengah,1250000,2014
+Sulawesi Tengah,1500000,2015
+Sulawesi Tengah,1670000,2016
+Sulawesi Tengah,1807775,2017
+Sulawesi Tengah,1965232,2018
+Sulawesi Tengah,2123040,2019
+Sulawesi Tengah,2303711,2020
+Sulawesi Tengah,2552014,2021
+Sulawesi Tengah,2390739,2022
+Sulawesi Tengah,2599546,2023
+Sulawesi Tengah,2736698,2024
+Sulawesi Tenggara,121000,1997
+Sulawesi Tenggara,139000,1998
+Sulawesi Tenggara,160000,1999
+Sulawesi Tenggara,210000,2000
+Sulawesi Tenggara,275000,2001
+Sulawesi Tenggara,325000,2002
+Sulawesi Tenggara,390000,2003
+Sulawesi Tenggara,470000,2004
+Sulawesi Tenggara,498600,2005
+Sulawesi Tenggara,573400,2006
+Sulawesi Tenggara,640000,2007
+Sulawesi Tenggara,700000,2008
+Sulawesi Tenggara,770000,2009
+Sulawesi Tenggara,860000,2010
+Sulawesi Tenggara,930000,2011
+Sulawesi Tenggara,1032300,2012
+Sulawesi Tenggara,1125207,2013
+Sulawesi Tenggara,1400000,2014
+Sulawesi Tenggara,1652000,2015
+Sulawesi Tenggara,1850000,2016
+Sulawesi Tenggara,2002625,2017
+Sulawesi Tenggara,2177052,2018
+Sulawesi Tenggara,2351870,2019
+Sulawesi Tenggara,2552015,2020
+Sulawesi Tenggara,2303711,2021
+Sulawesi Tenggara,2710595,2022
+Sulawesi Tenggara,2758984,2023
+Sulawesi Tenggara,2885964,2024
+Sulawesi Utara,118000,1997
+Sulawesi Utara,135500,1998
+Sulawesi Utara,155000,1999
+Sulawesi Utara,186000,2000
+Sulawesi Utara,372000,2001
+Sulawesi Utara,438000,2002
+Sulawesi Utara,495000,2003
+Sulawesi Utara,545000,2004
+Sulawesi Utara,600000,2005
+Sulawesi Utara,713500,2006
+Sulawesi Utara,750000,2007
+Sulawesi Utara,845000,2008
+Sulawesi Utara,929500,2009
+Sulawesi Utara,1000000,2010
+Sulawesi Utara,1050000,2011
+Sulawesi Utara,1250000,2012
+Sulawesi Utara,1550000,2013
+Sulawesi Utara,1900000,2014
+Sulawesi Utara,2150000,2015
+Sulawesi Utara,2400000,2016
+Sulawesi Utara,2598000,2017
+Sulawesi Utara,2824286,2018
+Sulawesi Utara,3051076,2019
+Sulawesi Utara,3310723,2020
+Sulawesi Utara,3310723,2021
+Sulawesi Utara,3310723,2022
+Sulawesi Utara,3485000,2023
+Sulawesi Utara,3545000,2024
+Sumatera Barat,119000,1997
+Sumatera Barat,137000,1998
+Sumatera Barat,160000,1999
+Sumatera Barat,200000,2000
+Sumatera Barat,250000,2001
+Sumatera Barat,385000,2002
+Sumatera Barat,435000,2003
+Sumatera Barat,480000,2004
+Sumatera Barat,540000,2005
+Sumatera Barat,650000,2006
+Sumatera Barat,725000,2007
+Sumatera Barat,800000,2008
+Sumatera Barat,880000,2009
+Sumatera Barat,940000,2010
+Sumatera Barat,1055000,2011
+Sumatera Barat,1150000,2012
+Sumatera Barat,1350000,2013
+Sumatera Barat,1490000,2014
+Sumatera Barat,1615000,2015
+Sumatera Barat,1800725,2016
+Sumatera Barat,1949284,2017
+Sumatera Barat,2119067,2018
+Sumatera Barat,2289220,2019
+Sumatera Barat,2484041,2020
+Sumatera Barat,2484041,2021
+Sumatera Barat,2512539,2022
+Sumatera Selatan,127500,1997
+Sumatera Selatan,146500,1998
+Sumatera Selatan,170000,1999
+Sumatera Selatan,190000,2000
+Sumatera Selatan,255000,2001
+Sumatera Selatan,331500,2002
+Sumatera Selatan,403500,2003
+Sumatera Selatan,460000,2004
+Sumatera Selatan,503700,2005
+Sumatera Selatan,604000,2006
+Sumatera Selatan,662000,2007
+Sumatera Selatan,743000,2008
+Sumatera Selatan,824730,2009
+Sumatera Selatan,927825,2010
+Sumatera Selatan,1048440,2011
+Sumatera Selatan,1195220,2012
+Sumatera Selatan,1630000,2013
+Sumatera Selatan,1825000,2014
+Sumatera Selatan,1974346,2015
+Sumatera Selatan,2206000,2016
+Sumatera Selatan,2388000,2017
+Sumatera Selatan,2595995,2018
+Sumatera Selatan,2804453,2019
+Sumatera Selatan,3043111,2020
+Sumatera Selatan,3043111,2021
+Sumatera Selatan,3144446,2022
+Sumatera Utara,151000,1997
+Sumatera Utara,174000,1998
+Sumatera Utara,210000,1999
+Sumatera Utara,254000,2000
+Sumatera Utara,340500,2001
+Sumatera Utara,464000,2002
+Sumatera Utara,505000,2003
+Sumatera Utara,537000,2004
+Sumatera Utara,600000,2005
+Sumatera Utara,737794,2006
+Sumatera Utara,761000,2007
+Sumatera Utara,822205,2008
+Sumatera Utara,905000,2009
+Sumatera Utara,965000,2010
+Sumatera Utara,1035500,2011
+Sumatera Utara,1200000,2012
+Sumatera Utara,1375000,2013
+Sumatera Utara,1505850,2014
+Sumatera Utara,1625000,2015
+Sumatera Utara,1811875,2016
+Sumatera Utara,1961354,2017
+Sumatera Utara,2132189,2018
+Sumatera Utara,2303403,2019
+Sumatera Utara,2499423,2020
+Sumatera Utara,2499423,2021
+Sumatera Utara,2522609,2022
+Sumatra Barat,2742476,2023
+Sumatra Barat,2811449,2024
+Sumatra Selatan,3404177,2023
+Sumatra Selatan,3456874,2024
+Sumatra Utara,2710493,2023
+Sumatra Utara,2809915,2024
