@@ -1,10 +1,6 @@
-# Laporan Proyek Machine Learning - Nama Anda
+# Prediksi Gaji UMR di Indonesia:
 
 ## Domain Proyek
-
-### Domain Proyek
-
-**Latar Belakang**
 
 Di Indonesia, ketimpangan upah antar wilayah masih jadi salah satu isu besar yang sering terlupakan, meskipun dampaknya sangat terasa, baik bagi ekonomi daerah maupun individu yang bekerja di berbagai sektor. Misalnya, Jakarta yang dikenal sebagai pusat perekonomian punya standar gaji yang jauh lebih tinggi dibandingkan dengan kota-kota di luar Pulau Jawa atau Indonesia Timur. Hal ini menimbulkan gap yang cukup besar dalam kesempatan ekonomi, mobilitas tenaga kerja, dan kualitas hidup antar wilayah.
 
