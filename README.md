@@ -210,7 +210,6 @@ Hasil evaluasi ini memberikan gambaran yang cukup jelas bahwa meskipun model ini
 
 Namun, meskipun model ini memberikan manfaat, kesalahan dalam prediksi  menunjukkan bahwa model ini belum sepenuhnyaakurat. Akurasi prediksi yang lebih tinggi akan sangat membantu pekerja untuk membuat keputusan lebih cerdas dalam memilih lokasi kerja atau merencanakan negosiasi gaji. Saat ini, meskipun bermanfaat, model ini hanya bisa menjadi panduan awal yang membantu pekerja untuk memahami standar gaji antar wilayah, namun tidak bisa dijadikan satu-satunya acuan.
 
-Dengan demikian, meskipun dampak dari model ini sudah terasa, baik untuk membantu pekerja dalam mendapatkan informasi tentang standar gaji, masih diperlukan peningkatan akurasi agar model ini benar-benar bisa diandalkan dalam pengambilan keputusan yang lebih besar. Dengan perbaikan lebih lanjut, model ini berpotensi menjadi alat yang sangat berguna untuk membantu pekerja merencanakan karir dan mencapai negosiasi gaji yang lebih adil dan menguntungkan.
 ---
 
 # Kesimpulan  
