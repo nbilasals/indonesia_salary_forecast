@@ -11,7 +11,7 @@ Masalah ketimpangan ini tidak hanya mempengaruhi gaji pekerja, tapi juga berimba
 Ada dua alasan utama yang cukup mendesak:
 
 1. **Perencanaan Ekonomi yang Lebih Baik**  
-   Mengetahui bagaimana tren gaji berkembang bisa membantu pemerintah dan perusahaan dalam merancang kebijakan yang lebih efektif dan berkelanjutan. Misalnya, kebijakan upah minimum yang lebih realistis atau program pengentasan kemiskinan yang bisa menargetkan daerah-daerah yang benar-benar membutuhkan. Kalau kita bisa memprediksi gaji di masa depan, pemerintah bisa lebih siap menghadapi fluktuasi ekonomi atau perubahan dalam sektor tenaga kerja.
+   Mengetahui bagaimana tren gaji berkembang bisa membantu pemerintah dan perusahaan dalam merancang kebijakan yang lebih efektif kedepannya. Misalnya, kebijakan upah minimum yang lebih realistis atau program pengentasan kemiskinan yang bisa menargetkan daerah-daerah yang benar-benar membutuhkan. Kalau kita bisa memprediksi gaji di masa depan, pemerintah bisa lebih siap menghadapi fluktuasi ekonomi atau perubahan dalam sektor tenaga kerja.
 
 2. **Pengelolaan SDM**  
    Di sisi perusahaan, forecasting gaji ini akan sangat membantu dalam hal pengelolaan sumber daya manusia. Pengusaha bisa merencanakan struktur gaji yang lebih adil dan sesuai dengan perkembangan ekonomi, serta meningkatkan kesejahteraan karyawan. Sementara bagi pekerja, peramalan gaji ini juga bisa jadi acuan dalam merencanakan karir mereka—mungkin untuk memilih lokasi kerja yang menawarkan peluang gaji yang lebih baik, atau sekadar untuk tahu apakah pekerjaan mereka masih relevan dengan standar gaji yang ada di pasaran.
@@ -30,29 +30,33 @@ Untuk modelnya, digunakan ARIMA (AutoRegressive Integrated Moving Average), kare
 ## Business Understanding
 
 **Ketimpangan Gaji Antar Wilayah di Indonesia**  
-Ketimpangan gaji antara wilayah di Indonesia merupakan masalah yang penting, yang berdampak langsung pada perekonomian dan kualitas hidup masyarakat. Gaji yang lebih tinggi di kota-kota besar, seperti Jakarta, dibandingkan dengan daerah lain, menciptakan ketidakseimbangan kesempatan ekonomi bagi pekerja yang tinggal di daerah terpencil atau di luar Pulau Jawa. Hal ini menyebabkan kesenjangan sosial dan ekonomis yang berlarut-larut. Oleh karena itu, sangat penting untuk memiliki model yang dapat memprediksi tren perkembangan gaji di berbagai wilayah, untuk membantu merancang kebijakan yang lebih adil dan memadai.
+Gaji yang berbeda di tiap wilayah di Indonesia jadi masalah penting, terutama karena dampaknya besar ke ekonomi dan kesejahteraan masyarakat. Kota-kota besar seperti Jakarta biasanya punya gaji lebih tinggi dibanding daerah lain, sehingga pekerja di daerah terpencil atau luar Jawa punya kesempatan ekonomi yang lebih sedikit. Kondisi ini bikin kesenjangan sosial dan ekonomi terus terjadi. Untuk itu, perlu ada model yang bisa memprediksi tren gaji di berbagai wilayah agar kebijakan yang dibuat lebih adil dan efektif.
 
 **Pengelolaan Sumber Daya Manusia yang Tidak Optimal**  
-Perusahaan-perusahaan di Indonesia sering kali kesulitan dalam merencanakan struktur gaji yang sesuai dengan perkembangan ekonomi yang ada, terutama dalam pengelolaan sumber daya manusia (SDM). Tanpa pemahaman yang jelas tentang bagaimana gaji akan berkembang di masa depan, perusahaan mungkin tidak dapat menetapkan upah yang adil dan kompetitif, yang pada akhirnya dapat memengaruhi retensi karyawan dan kesejahteraan mereka. Forecasting gaji yang akurat akan sangat membantu dalam merencanakan kebijakan SDM yang lebih efektif dan adil, baik untuk perusahaan maupun karyawan.
+Banyak perusahaan di Indonesia belum punya strategi yang baik untuk merancang struktur gaji yang sesuai dengan kondisi ekonomi. Tanpa data prediksi yang jelas, gaji yang ditetapkan sering kali kurang adil atau tidak kompetitif. Hal ini bisa memengaruhi kesejahteraan karyawan dan membuat mereka lebih mudah pindah kerja. Dengan adanya prediksi gaji yang akurat, perusahaan bisa lebih mudah merancang kebijakan SDM yang efisien dan adil.
 
 **Perencanaan Ekonomi dan Kebijakan yang Kurang Tepat Sasaran**  
-Bagi pemerintah, ketimpangan gaji antar wilayah bisa menjadi penghalang dalam merancang kebijakan ekonomi yang berkelanjutan. Tanpa adanya prediksi yang akurat mengenai perkembangan gaji di masa depan, pemerintah akan kesulitan dalam menentukan kebijakan upah minimum yang realistis atau dalam merancang program pengentasan kemiskinan yang sesuai dengan kebutuhan tiap daerah. Oleh karena itu, sangat penting untuk memiliki alat yang dapat memprediksi gaji di berbagai provinsi agar kebijakan yang dibuat bisa lebih tepat sasaran dan efektif dalam mengurangi kesenjangan sosial-ekonomi antar wilayah.
+Ketimpangan gaji juga bikin pemerintah kesulitan merancang kebijakan ekonomi yang efektif. Tanpa data yang akurat tentang tren gaji, penetapan upah minimum atau program pengentasan kemiskinan sering kali meleset dari kebutuhan tiap daerah. Karena itu, data prediksi gaji yang akurat sangat penting untuk mendukung kebijakan yang lebih tepat sasaran.
 
 **Keterbatasan Data Gaji yang Tersedia untuk Analisis**  
-Walaupun data historis mengenai gaji telah tersedia, namun data tersebut tidak selalu lengkap atau mudah diakses untuk tujuan analisis yang mendalam. Beberapa daerah mungkin tidak memiliki data yang cukup untuk analisis tren gaji secara tepat. Oleh karena itu, penting untuk menggunakan teknik analisis data dan time series forecasting yang efektif, untuk memanfaatkan data yang terbatas menjadi informasi yang bermanfaat dalam merencanakan kebijakan yang lebih baik.
+Walaupun data gaji sudah tersedia, sering kali datanya tidak lengkap atau sulit diakses. Beberapa daerah bahkan tidak punya data yang cukup untuk dianalisis. Maka dari itu, kita perlu teknik analisis dan forecasting yang efektif supaya data yang ada bisa dimanfaatkan untuk mendukung kebijakan yang lebih baik.
+
+
 
 
 ### Goals
 
-1. Setiap pernyataan masalah yang telah diidentifikasi di atas memiliki tujuan yang jelas untuk memecahkan masalah ketimpangan gaji antar wilayah di Indonesia dan memberikan solusi yang lebih efektif dalam perencanaan kebijakan dan pengelolaan sumber daya manusia. Berikut adalah tujuan untuk masing-masing pernyataan masalah:
+**Mengurangi Ketimpangan Gaji Antar Wilayah**
+Tujuannya adalah memahami tren gaji di setiap wilayah dengan lebih baik, sehingga bisa membantu pemerintah membuat kebijakan yang adil dan merata. Dengan data prediksi yang akurat, kesempatan ekonomi antar daerah bisa lebih seimbang, dan kesenjangan sosial bisa dikurangi.
 
-2. Mengurangi ketimpangan gaji antar wilayah di Indonesia dengan menyediakan pemahaman yang lebih baik mengenai prediksi perkembangan gaji di tiap provinsi. Tujuan ini dapat dicapai dengan menggunakan analisis time series untuk meramalkan tren gaji di masa depan, memberikan data yang akurat bagi pemerintah dan pengambil kebijakan dalam merancang kebijakan yang lebih adil dan efektif. Dengan memprediksi gaji yang realistis, kita dapat membantu menciptakan kesempatan ekonomi yang lebih merata antara wilayah, serta mengurangi kesenjangan sosial yang ada.
+**Mendukung Kebijakan SDM Perusahaan**
+Membantu perusahaan memperkirakan tren gaji ke depan, supaya bisa merancang struktur gaji yang lebih kompetitif dan sesuai kondisi ekonomi. Ini akan meningkatkan kesejahteraan karyawan dan mengurangi risiko karyawan pindah kerja.
 
-3. Membantu perusahaan dalam merencanakan kebijakan upah dan pengelolaan sumber daya manusia yang lebih efisien dan adil. Tujuannya adalah untuk memberikan alat yang memungkinkan perusahaan untuk memperkirakan perkembangan gaji di masa depan, sehingga mereka dapat merancang struktur gaji yang kompetitif dan adil sesuai dengan perkembangan ekonomi. Dengan mengetahui tren gaji yang ada, perusahaan bisa lebih siap untuk mempertahankan karyawan dengan memberikan kesejahteraan yang lebih baik, serta mengurangi tingkat turnover karyawan.
- 
-4. Mendukung perencanaan ekonomi yang lebih baik dengan memberikan data yang akurat mengenai prediksi perkembangan gaji antar wilayah. Dengan memanfaatkan hasil prediksi gaji, pemerintah dapat merancang kebijakan ekonomi dan program sosial yang lebih efektif, seperti penetapan upah minimum yang tepat dan program pengentasan kemiskinan yang lebih menyeluruh. Tujuan akhirnya adalah untuk menciptakan pemerataan ekonomi di seluruh Indonesia, serta meningkatkan kualitas hidup masyarakat di daerah-daerah dengan gaji yang lebih rendah.
+**Meningkatkan Perencanaan Ekonomi Pemerintah**
+Prediksi gaji yang akurat akan membantu pemerintah menetapkan kebijakan seperti upah minimum atau program pengentasan kemiskinan yang lebih tepat. Tujuannya adalah menciptakan pemerataan ekonomi di seluruh Indonesia.
 
-5. Memperbaiki akses terhadap data gaji yang lebih terstruktur dan lengkap. Dengan menggunakan teknik analisis data dan time series forecasting yang canggih, kita dapat mengoptimalkan data historis yang terbatas untuk membuat peramalan gaji yang lebih akurat. Hal ini memungkinkan pembuatan kebijakan yang lebih baik, berdasarkan data yang lebih representatif dan lengkap, sehingga kebijakan yang dihasilkan lebih tepat sasaran dan dapat diterapkan di berbagai daerah di Indonesia.
+**Memaksimalkan Penggunaan Data yang Ada**
+Dengan memanfaatkan analisis dan forecasting, data yang terbatas bisa diolah jadi informasi yang bermanfaat. Hal ini akan mendukung kebijakan yang lebih tepat dan berdampak nyata bagi berbagai pihak.
 
 ---
 
@@ -63,13 +67,12 @@ Untuk meraih tujuan-tujuan yang telah dijelaskan di atas, proyek ini akan menggu
 Langkah-langkah solusi yang dilakukan:
 
 1. **Pengumpulan dan Pembersihan Data**  
-   Mengumpulkan data gaji UMP dari berbagai provinsi di Indonesia dari tahun 1997 hingga 2024, kemudian membersihkan data tersebut agar siap digunakan untuk analisis. Proses pembersihan ini termasuk menghilangkan data yang tidak lengkap atau tidak valid.
-
+   Mengumpulkan data gaji UMP dari berbagai provinsi di Indonesia dari tahun 1997 hingga 2024. 
 2. **Analisis dan Identifikasi Pola**  
-   Setelah data dibersihkan, kita akan melakukan analisis untuk mengidentifikasi pola dan tren yang ada dalam data gaji, termasuk fluktuasi tahunan atau musiman yang bisa mempengaruhi prediksi.
+   Setelah data dibersihkan, kita akan melakukan analisis untuk mengidentifikasi pola dan tren yang ada dalam data gaji.
 
 3. **Modeling dengan ARIMA**  
-   Membangun model ARIMA untuk meramalkan perkembangan gaji di masa depan. Model ini akan disesuaikan dengan data yang ada untuk menghasilkan prediksi yang akurat dan dapat diandalkan.
+   Membangun model ARIMA untuk meramalkan perkembangan gaji di masa depan.
 
 4. **Evaluasi dan Validasi Model**  
    Setelah model dibangun, langkah berikutnya adalah mengevaluasi dan memvalidasi akurasi prediksi yang dihasilkan oleh model ARIMA dengan menggunakan data yang ada, serta membandingkannya dengan data nyata untuk mengukur tingkat keakuratan model dengan Mean Squared Error dan Mean Absolute Error.
