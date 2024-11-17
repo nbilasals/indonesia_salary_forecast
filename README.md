@@ -114,7 +114,6 @@ Pada tahap ini, beberapa langkah dilakukan untuk memastikan data siap digunakan 
 ---
 
 # Modeling
-## Modeling
 
 Pada tahap modeling, proyek ini menggunakan algoritma **ARIMA (AutoRegressive Integrated Moving Average)** untuk memprediksi tren gaji historis dan memberikan estimasi gaji di masa depan. Berikut adalah penjelasan detail proses yang dilakukan:
 
@@ -207,9 +206,9 @@ Nilai MAE menunjukkan rata-rata kesalahan prediksi sebesar Rp 86,525, sedangkan 
 ## Hasil Evaluasi untuk Jogjakarta  
 - **MAE:** 40,306.83  
 - **MSE:** 4,736,783,035.49  
-Hasil evaluasi ini memberikan gambaran yang cukup jelas bahwa meskipun model ini memberikan insight awal tentang standar gaji di Jakarta dan Jogjakarta, masih ada ruang yang luas untuk perbaikan. Model ini memang memberikan gambaran mengenai standar gaji di dua wilayah tersebut, yang tentu bisa menjadi dasar yang baik bagi pekerja untuk mengetahui apakah gaji mereka sudah sesuai dengan standar. Selain itu, model ini juga memberikan perbandingan antara kedua wilayah, sehingga pekerja bisa lebih mudah memilih lokasi kerja berdasarkan potensi gaji yang lebih menguntungkan.
+Hasil evaluasi ini memberikan gambaran yang cukup jelas bahwa meskipun model ini memberikan insight awal tentang standar gaji di Jakarta dan Jogjakarta, masih ada ruang yang luas untuk perbaikan. Model ini memang memberikan gambaran mengenai standar gaji di dua wilayah tersebut, yang tentu bisa menjadi dasar yang baik bagi pekerja untuk mengetahui apakah gaji mereka sudah sesuai dengan standar. Selain itu, model ini juga memberikan perbandingan antara semua wilayah di Indonesia, sehingga pekerja bisa lebih mudah memilih lokasi kerja berdasarkan potensi gaji yang lebih menguntungkan.
 
-Namun, meskipun model ini memberikan manfaat, kesalahan dalam prediksi yang cukup signifikan menunjukkan bahwa model ini belum sepenuhnya dapat diandalkan untuk keputusan besar. Akurasi prediksi yang lebih tinggi akan sangat membantu pekerja untuk membuat keputusan lebih cerdas dalam memilih lokasi kerja atau merencanakan negosiasi gaji. Saat ini, meskipun bermanfaat, model ini hanya bisa menjadi panduan awal yang membantu pekerja untuk memahami standar gaji antar wilayah, namun tidak bisa dijadikan satu-satunya acuan.
+Namun, meskipun model ini memberikan manfaat, kesalahan dalam prediksi  menunjukkan bahwa model ini belum sepenuhnyaakurat. Akurasi prediksi yang lebih tinggi akan sangat membantu pekerja untuk membuat keputusan lebih cerdas dalam memilih lokasi kerja atau merencanakan negosiasi gaji. Saat ini, meskipun bermanfaat, model ini hanya bisa menjadi panduan awal yang membantu pekerja untuk memahami standar gaji antar wilayah, namun tidak bisa dijadikan satu-satunya acuan.
 
 Dengan demikian, meskipun dampak dari model ini sudah terasa, baik untuk membantu pekerja dalam mendapatkan informasi tentang standar gaji, masih diperlukan peningkatan akurasi agar model ini benar-benar bisa diandalkan dalam pengambilan keputusan yang lebih besar. Dengan perbaikan lebih lanjut, model ini berpotensi menjadi alat yang sangat berguna untuk membantu pekerja merencanakan karir dan mencapai negosiasi gaji yang lebih adil dan menguntungkan.
 ---
