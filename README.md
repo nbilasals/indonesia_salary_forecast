@@ -42,9 +42,7 @@ Proyek ini bertujuan untuk membangun model prediksi gaji berbasis data menggunak
    - Memberikan panduan untuk mengetahui standar gaji sesuai lokasi.
    - Membantu pekerja membandingkan standar gaji antar wilayah, sehingga mereka dapat mengambil keputusan karir yang lebih baik, seperti memilih lokasi kerja yang menawarkan peluang terbaik atau merencanakan negosiasi gaji yang lebih adil.
 
-
 ---
-
 ### Solution Statement
 
 Untuk meraih tujuan-tujuan yang telah dijelaskan di atas, proyek ini akan menggunakan teknik **time series forecasting**, dengan model **ARIMA (AutoRegressive Integrated Moving Average)**.
@@ -57,7 +55,6 @@ Langkah-langkah solusi yang dilakukan:
    Setelah data dibersihkan, kita akan melakukan analisis untuk mengidentifikasi pola dan tren yang ada dalam data gaji.
 3. **Modeling dengan ARIMA**  
    Membangun model ARIMA untuk meramalkan perkembangan gaji di masa depan.
-
 4. **Evaluasi dan Validasi Model**  
    Setelah model dibangun, langkah berikutnya adalah mengevaluasi dan memvalidasi akurasi prediksi yang dihasilkan oleh model ARIMA dengan menggunakan data yang ada, serta membandingkannya dengan data aktual untuk mengukur tingkat keakuratan model dengan Mean Squared Error dan Mean Absolute Error.
 
@@ -67,7 +64,6 @@ Pada proyek ini, digunakan dataset mengenai Upah Minimum Provinsi (UMP) di Indon
 
 1. Dataset ini berisi informasi UMP yang terpisah berdasarkan provinsi dan tahun, mencakup periode 1997 hingga 2022. Dataset dapat diakses melalui Kaggle pada tautan berikut: [Dataset Upah di Indonesia](https://www.kaggle.com/datasets/linkgish/indonesian-salary-by-region-19972022).
 2. Untuk melengkapi dataset hingga tahun 2024, data UMP tahun 2023 dan 2024 ditambahkan secara manual. Penambahan ini menggunakan sumber resmi dari **Badan Pusat Statistik (BPS)** untuk memastikan data yang digunakan tetap relevan dan akurat.
-
 
 ### Variabel-variabel pada dataset ini adalah sebagai berikut:
 
@@ -112,21 +108,88 @@ Pada tahap ini, beberapa langkah dilakukan untuk memastikan data siap digunakan 
 3. **Penambahan Data untuk Tahun 2023 dan 2024**  
    Data untuk tahun 2023 dan 2024 ditambahkan secara manual berdasarkan data yang diambil dari BPS (Badan Pusat Statistik).   
 4. **Penambahan Kolom ISLAND**  
-   Kolom `ISLAND` ditambahkan untuk mengelompokkan wilayah berdasarkan pulau (misalnya Jawa, Sumatera, Kalimantan, dll.). Ini membantu dalam analisis lebih lanjut terkait distribusi gaji berdasarkan pulau.  
+   Kolom `ISLAND` ditambahkan untuk mengelompokkan wilayah berdasarkan pulau (misalnya Jawa, Sumatera, Kalimantan, dll.). Ini membantu dalam analisis lebih lanjut terkait distribusi gaji berdasarkan pulau
 
 
 ---
 
 # Modeling
-## Pendekatan Modeling  
-1. **Membuat Model ARIMA untuk Jakarta dan Jogjakarta Secara Individual**  
-   Model ARIMA pertama kali diuji pada dua region, yaitu Jakarta dan Jogjakarta. Setelah itu, model ARIMA di-*loop* untuk setiap wilayah di dataset.  
+## Modeling
 
-2. **Visualisasi Hasil Prediksi**  
-   Dibuat visualisasi perbandingan antara data aktual dan prediksi untuk melihat seberapa baik model menangkap pola gaji historis. Selain itu, dilakukan prediksi gaji untuk 10 tahun ke depan menggunakan model ini.  
+Pada tahap modeling, proyek ini menggunakan algoritma **ARIMA (AutoRegressive Integrated Moving Average)** untuk memprediksi tren gaji historis dan memberikan estimasi gaji di masa depan. Berikut adalah penjelasan detail proses yang dilakukan:
+
+### Proses Modeling
+
+1. **Membuat Model ARIMA untuk Jakarta dan Jogjakarta**
+   - Untuk memvalidasi performa awal, model ARIMA pertama kali diterapkan pada data dari dua wilayah: Jakarta dan Jogjakarta.
+   - Tahapan meliputi:
+     - **Preprocessing Data**: Kolom tahun (`YEAR`) diubah menjadi format waktu (`datetime`) agar sesuai dengan kebutuhan ARIMA.
+     - **Parameter Model**: ARIMA menggunakan parameter `(p, d, q)` di mana:
+       - `p`: jumlah lag dalam model autoregresif.
+       - `d`: jumlah differencing untuk membuat data stasioner.
+       - `q`: jumlah lag error dalam moving average.
+       - Parameter awal dipilih `(2, 1, 2)` berdasarkan eksperimen awal.
+     - **Fitting Model**: Model di-fit pada data historis gaji masing-masing wilayah.
+     - **Evaluasi Awal**: Model diuji dengan menghitung *Mean Absolute Error (MAE)* dan *Mean Squared Error (MSE)* untuk menilai seberapa baik model memprediksi data historis.
+
+2. **Looping Model ARIMA ke Seluruh Wilayah**
+   - Setelah validasi awal berhasil, model ARIMA diimplementasikan secara iteratif untuk setiap wilayah di dataset. Proses ini memastikan model dapat menangkap pola spesifik di setiap wilayah.
+
+3. **Prediksi Gaji 10 Tahun ke Depan**
+   - Model digunakan untuk memprediksi tren gaji hingga 10 tahun ke depan di setiap wilayah. Prediksi ini bertujuan untuk memberikan insight tentang kemungkinan ketimpangan gaji yang akan datang.
+
+### Visualisasi Hasil Prediksi
+- **Prediksi vs Data Aktual**
+  - Dibuat visualisasi perbandingan antara data aktual dan prediksi untuk melihat seberapa baik model ARIMA menangkap pola historis.
+  - Grafik menunjukkan tren gaji dari tahun ke tahun, dengan garis prediksi ditampilkan sebagai garis putus-putus.
+
+- **Prediksi 10 Tahun ke Depan**
+  - Prediksi untuk tahun mendatang divisualisasikan sebagai ekstensi tren data historis. Hal ini memberikan gambaran bagaimana gaji di setiap wilayah akan berkembang di masa depan.
+
+### Evaluasi Model
+- **Metode Evaluasi**: 
+  - *Mean Absolute Error (MAE)*: Mengukur rata-rata kesalahan prediksi secara absolut.
+  - *Mean Squared Error (MSE)*: Mengukur rata-rata kuadrat kesalahan prediksi untuk menilai model.
+- Hasil evaluasi menunjukkan bahwa model dapat menangkap pola data historis dengan tingkat kesalahan yang dapat diterima.
+
+### Contoh Implementasi ARIMA pada Jakarta
+```python
+from statsmodels.tsa.arima.model import ARIMA
+from sklearn.metrics import mean_absolute_error, mean_squared_error
+import matplotlib.pyplot as plt
+import pandas as pd
+
+# Preprocessing: Rename columns and ensure datetime format
+df_jakarta = df_jakarta.rename(columns={'YEAR': 'ds', 'SALARY': 'y'})
+df_jakarta['ds'] = pd.to_datetime(df_jakarta['ds'], format='%Y')
+
+# Fit the ARIMA model
+model = ARIMA(df_jakarta['y'], order=(2,1,2))  # Adjust parameters as needed
+model_fit = model.fit()
+
+# Predictions and evaluation
+predictions = model_fit.predict(start=0, end=len(df_jakarta)-1)
+mae = mean_absolute_error(df_jakarta['y'], predictions)
+mse = mean_squared_error(df_jakarta['y'], predictions)
+
+# Print metrics
+print(f"Mean Absolute Error (MAE): {mae}")
+print(f"Mean Squared Error (MSE): {mse}")
+
+# Visualization
+plt.figure(figsize=(12, 6))
+plt.plot(df_jakarta['ds'], df_jakarta['y'], label='Actual')
+plt.plot(df_jakarta['ds'], predictions, label='Predicted', linestyle='--')
+plt.title('ARIMA Predictions vs Actual Salary in Jakarta')
+plt.xlabel('Year')
+plt.ylabel('Salary')
+plt.legend()
+plt.grid(True)
+plt.show()
+
 
 ---
-
+```
 # Evaluation
 ## Metrik yang Digunakan  
 1. **Mean Absolute Error (MAE)**  
@@ -144,7 +207,11 @@ Nilai MAE menunjukkan rata-rata kesalahan prediksi sebesar Rp 86,525, sedangkan 
 ## Hasil Evaluasi untuk Jogjakarta  
 - **MAE:** 40,306.83  
 - **MSE:** 4,736,783,035.49  
+Hasil evaluasi ini memberikan gambaran yang cukup jelas bahwa meskipun model ini memberikan insight awal tentang standar gaji di Jakarta dan Jogjakarta, masih ada ruang yang luas untuk perbaikan. Model ini memang memberikan gambaran mengenai standar gaji di dua wilayah tersebut, yang tentu bisa menjadi dasar yang baik bagi pekerja untuk mengetahui apakah gaji mereka sudah sesuai dengan standar. Selain itu, model ini juga memberikan perbandingan antara kedua wilayah, sehingga pekerja bisa lebih mudah memilih lokasi kerja berdasarkan potensi gaji yang lebih menguntungkan.
 
+Namun, meskipun model ini memberikan manfaat, kesalahan dalam prediksi yang cukup signifikan menunjukkan bahwa model ini belum sepenuhnya dapat diandalkan untuk keputusan besar. Akurasi prediksi yang lebih tinggi akan sangat membantu pekerja untuk membuat keputusan lebih cerdas dalam memilih lokasi kerja atau merencanakan negosiasi gaji. Saat ini, meskipun bermanfaat, model ini hanya bisa menjadi panduan awal yang membantu pekerja untuk memahami standar gaji antar wilayah, namun tidak bisa dijadikan satu-satunya acuan.
+
+Dengan demikian, meskipun dampak dari model ini sudah terasa, baik untuk membantu pekerja dalam mendapatkan informasi tentang standar gaji, masih diperlukan peningkatan akurasi agar model ini benar-benar bisa diandalkan dalam pengambilan keputusan yang lebih besar. Dengan perbaikan lebih lanjut, model ini berpotensi menjadi alat yang sangat berguna untuk membantu pekerja merencanakan karir dan mencapai negosiasi gaji yang lebih adil dan menguntungkan.
 ---
 
 # Kesimpulan  
