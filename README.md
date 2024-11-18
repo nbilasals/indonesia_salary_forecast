@@ -50,8 +50,9 @@ Dengan menyelesaikan masalah ini, diharapkan pekerja dapat membuat keputusan yan
 Proyek ini bertujuan untuk membangun model prediksi gaji berbasis data menggunakan teknik time series forecasting. Dengan model ini, diharapkan dapat memberikan panduan kepada individu atau pekerja dalam:
 
 - Mengetahui standar gaji sesuai lokasi.
-- Membandingkan standar gaji antar wilayah untuk membantu dalam pengambilan keputusan karir yang lebih baik.
 - Memudahkan perencanaan negosiasi gaji yang lebih adil.
+- Membandingkan standar gaji antar wilayah untuk membantu dalam pengambilan keputusan karir yang lebih baik.
+
 
 ### Solution Statement
 
@@ -154,29 +155,29 @@ Tahapan eksplorasi data dilakukan untuk memahami karakteristik dataset dan menem
 
 # Data Preparation
 Pada tahap ini, beberapa langkah dilakukan untuk memastikan data siap digunakan dalam pemodelan. Langkah-langkah yang dilakukan adalah:  
+### 1. Penanganan Missing Values
+Dataset tidak memiliki **missing values** pada kolom `REGION`, `SALARY`, `YEAR` maupun `ISLAND`.  
 
-### 1. Case Formatting pada Kolom `REGION`
+### 2. Case Formatting pada Kolom `REGION`
 Semua nilai pada kolom `REGION` diformat ke **huruf kapital** untuk menjaga konsistensi dan menghindari duplikasi data akibat perbedaan penulisan (contoh: `Aceh` dan `ACEH` dianggap berbeda tanpa formatting).
 
-### 2. Penghapusan Data `REGION` yang Tidak Relevan
+### 3. Penghapusan Data `REGION` yang Tidak Relevan
 Baris dengan nilai `REGION` berupa `'Indonesia'` dihapus karena data ini tidak memberikan informasi spesifik terkait wilayah tertentu. Fokus analisis hanya pada level provinsi.
 
-### 3. Penambahan Data untuk Tahun 2023 dan 2024
+### 4. Penambahan Data untuk Tahun 2023 dan 2024
 Dataset awal hanya mencakup data hingga tahun 2022. Untuk melengkapi dataset hingga tahun 2024, data UMP tahun 2023 dan 2024 ditambahkan secara manual.  
 Sumber data berasal dari **Badan Pusat Statistik (BPS)** untuk memastikan akurasi dan relevansi.
 
-### 4. Penambahan Kolom `ISLAND`
+### 5. Penambahan Kolom `ISLAND`
 Kolom `ISLAND` ditambahkan untuk mengelompokkan provinsi berdasarkan pulau. Kelompok ini membantu dalam analisis distribusi UMP berdasarkan wilayah geografis.  
 Contoh pengelompokannya adalah sebagai berikut:
 - **Sumatera:** Aceh, Sumatera Utara, Riau, dan lain-lain.
 - **Jawa:** DKI Jakarta, Jawa Barat, Jawa Timur, dan lainnya.
 - **Kalimantan:** Kalimantan Barat, Kalimantan Timur, dll.
 
-### 5. Perubahan Tipe Data Kolom `YEAR`
+### 6. Perubahan Tipe Data Kolom `YEAR`
 Kolom `YEAR` awalnya memiliki tipe data string (object). Tipe data ini diubah menjadi **datetime** agar dapat digunakan untuk analisis berbasis waktu dan pemodelan time series.
 
-### 6. Penanganan Missing Values
-Dataset awal tidak memiliki **missing values** pada kolom `REGION`, `SALARY`, `YEAR` maupun `ISLAND`.  
 
 ### Output Data Setelah Proses
 Dataset setelah proses ini memiliki struktur berikut:
