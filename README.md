@@ -30,46 +30,100 @@ Model ARIMA dipilih karena efektif menangani data berbasis waktu dengan tren mus
 
 
 ## Business Understanding
-Ketimpangan gaji antar wilayah di Indonesia masih menjadi masalah besar yang memengaruhi kehidupan masyarakat, terutama individu atau pekerja. Beberapa permasalahan yang sering muncul antara lain:  
-- **Kurangnya Informasi Standar Gaji**: Pekerja sering kali tidak memiliki data yang cukup untuk mengetahui apakah gaji mereka sudah sesuai dengan standar di wilayah atau sektor tertentu.  
-- **Sulitnya Negosiasi Gaji**: Minimnya transparansi tentang standar gaji membuat pekerja kesulitan dalam melakukan negosiasi yang adil dengan perusahaan.  
-- **Kebingungan Memilih Lokasi Kerja**: Banyak pekerja tidak memiliki panduan yang jelas untuk menentukan lokasi kerja yang memberikan peluang ekonomi terbaik, terutama jika mempertimbangkan biaya hidup dan standar gaji antar wilayah.
+Ketimpangan gaji antar wilayah di Indonesia masih menjadi masalah besar yang memengaruhi kehidupan masyarakat, terutama individu atau pekerja. Beberapa permasalahan utama yang sering muncul meliputi kurangnya informasi standar gaji, sulitnya negosiasi gaji, dan kebingungan dalam memilih lokasi kerja dengan peluang terbaik. 
 
----
+Dengan menyelesaikan masalah ini, diharapkan pekerja dapat membuat keputusan yang lebih baik terkait karir mereka, termasuk pemilihan lokasi kerja atau perencanaan negosiasi gaji.
 
-### **Goals**
-Proyek ini bertujuan untuk membangun model prediksi gaji berbasis data menggunakan teknik **time series forecasting**. Dengan model ini, diharapkan bisa memberikan insight yang mendukung pengambilan keputusan bagi individu/pekerja untuk:
-   - Memberikan panduan untuk mengetahui standar gaji sesuai lokasi.
-   - Membantu pekerja membandingkan standar gaji antar wilayah, sehingga mereka dapat mengambil keputusan karir yang lebih baik, seperti memilih lokasi kerja yang menawarkan peluang terbaik atau merencanakan negosiasi gaji yang lebih adil.
+### Problem Statement
 
----
+1. **Kurangnya Informasi Standar Gaji**  
+   Pekerja sering kali tidak memiliki data yang cukup untuk mengetahui apakah gaji mereka sudah sesuai dengan standar di wilayah atau sektor tertentu.
+
+2. **Sulitnya Negosiasi Gaji**  
+   Minimnya transparansi tentang standar gaji membuat pekerja kesulitan dalam melakukan negosiasi yang adil dengan perusahaan.
+
+3. **Kebingungan Memilih Lokasi Kerja**  
+   Banyak pekerja tidak memiliki panduan yang jelas untuk menentukan lokasi kerja yang memberikan peluang ekonomi terbaik, terutama jika mempertimbangkan biaya hidup dan standar gaji antar wilayah.
+
+### Goals
+
+Proyek ini bertujuan untuk membangun model prediksi gaji berbasis data menggunakan teknik time series forecasting. Dengan model ini, diharapkan dapat memberikan panduan kepada individu atau pekerja dalam:
+
+- Mengetahui standar gaji sesuai lokasi.
+- Membandingkan standar gaji antar wilayah untuk membantu dalam pengambilan keputusan karir yang lebih baik.
+- Memudahkan perencanaan negosiasi gaji yang lebih adil.
+
 ### Solution Statement
 
-Untuk meraih tujuan-tujuan yang telah dijelaskan di atas, proyek ini akan menggunakan teknik **time series forecasting**, dengan model **ARIMA (AutoRegressive Integrated Moving Average)**.
-
-Langkah-langkah solusi yang dilakukan:
+Untuk mencapai tujuan di atas, proyek ini akan menggunakan pendekatan berbasis data dan model prediktif dengan langkah-langkah berikut:
 
 1. **Pengumpulan dan Pembersihan Data**  
-   Mengumpulkan data gaji UMP dari berbagai provinsi di Indonesia dari tahun 1997 hingga 2024. 
+   - Mengumpulkan data gaji UMP dari berbagai provinsi di Indonesia dari tahun 1997 hingga 2024.
+   - Melakukan pembersihan data untuk memastikan kelengkapan dan keakuratan.
+
 2. **Analisis dan Identifikasi Pola**  
-   Setelah data dibersihkan, kita akan melakukan analisis untuk mengidentifikasi pola dan tren yang ada dalam data gaji.
+   - Menganalisis data untuk mengidentifikasi pola dan tren gaji dari waktu ke waktu, serta perbedaan antar wilayah.
+
 3. **Modeling dengan ARIMA**  
-   Membangun model ARIMA untuk meramalkan perkembangan gaji di masa depan.
+   - Menggunakan model ARIMA (AutoRegressive Integrated Moving Average) untuk meramalkan perkembangan gaji di masa depan berdasarkan data historis.
+
 4. **Evaluasi dan Validasi Model**  
-   Setelah model dibangun, langkah berikutnya adalah mengevaluasi dan memvalidasi akurasi prediksi yang dihasilkan oleh model ARIMA dengan menggunakan data yang ada, serta membandingkannya dengan data aktual untuk mengukur tingkat keakuratan model dengan Mean Squared Error dan Mean Absolute Error.
+   - Mengevaluasi akurasi prediksi model menggunakan metrik seperti Mean Squared Error (MSE) dan Mean Absolute Error (MAE).
+   - Membandingkan hasil prediksi dengan data aktual untuk memastikan keandalan model.
+
 
 ## Data Understanding
 
 Pada proyek ini, digunakan dataset mengenai Upah Minimum Provinsi (UMP) di Indonesia yang mencakup data dari tahun 1997 hingga 2024.
 
 1. Dataset ini berisi informasi UMP yang terpisah berdasarkan provinsi dan tahun, mencakup periode 1997 hingga 2022. Dataset dapat diakses melalui Kaggle pada tautan berikut: [Dataset Upah di Indonesia](https://www.kaggle.com/datasets/linkgish/indonesian-salary-by-region-19972022).
-2. Untuk melengkapi dataset hingga tahun 2024, data UMP tahun 2023 dan 2024 ditambahkan secara manual. Penambahan ini menggunakan sumber resmi dari **Badan Pusat Statistik (BPS)** untuk memastikan data yang digunakan tetap relevan dan akurat.
+2. Untuk melengkapi dataset hingga tahun 2024, data UMP tahun 2023 dan 2024 ditambahkan secara manual. Penambahan ini menggunakan sumber resmi dari **Badan Pusat Statistik (BPS)** untuk memastikan data yang digunakan tetap relevan dan akurat. [Sumber Data Resmi BPS](https://www.bps.go.id/).
 
 ### Variabel-variabel pada dataset ini adalah sebagai berikut:
 
 - **REGION**: Merupakan nama provinsi atau wilayah di Indonesia, yang mencakup daerah-daerah dari seluruh Indonesia, baik dari Jawa, Sumatera, Kalimantan, Sulawesi, hingga wilayah Indonesia Timur.
 - **YEAR**: Menunjukkan tahun data gaji diambil, mulai dari 1997 hingga 2024.
 - **SALARY**: Menyajikan angka upah minimum provinsi (UMP) yang diterapkan pada wilayah tersebut setiap tahunnya.
+
+### Kondisi Data
+
+- **Jumlah data (baris dan kolom):**  
+  `(870, 3)`  
+  Dataset terdiri dari 870 baris dan 3 kolom.
+
+- **Jumlah nilai yang hilang (missing values) per kolom:**
+Tidak terdapat *missing values* pada dataset.
+
+- **Jumlah baris duplikat:**  
+Tidak terdapat baris duplikat pada dataset.
+
+### Uraian Fitur
+
+Berikut adalah deskripsi dari setiap fitur pada dataset:
+
+1. **Feature: REGION**  
+ - **Tipe Data:** object  
+ - **Contoh Nilai:**  
+   `'Aceh'`, `'Bali'`, `'Banten'`, `'Bengkulu'`, `'Di Yogyakarta'`
+
+2. **Feature: SALARY**  
+ - **Tipe Data:** int64  
+ - **Statistik Deskriptif:**  
+   ```
+   count      870.0  
+   mean   1,179,872.0  
+   std    9,175,435.0  
+   min      106,000.0  
+   25%      421,500.5  
+   50%      890,387.0  
+   75%    1,867,583.0  
+   max    4,452,724.0  
+   ```
+
+3. **Feature: YEAR**  
+ - **Tipe Data:** object  
+ - **Contoh Nilai:**  
+   `1997`, `1998`, `1999`, `2000`, `2001`
 
 ### Exploratory Data Analysis (EDA)
 
@@ -101,16 +155,34 @@ Tahapan eksplorasi data dilakukan untuk memahami karakteristik dataset dan menem
 # Data Preparation
 Pada tahap ini, beberapa langkah dilakukan untuk memastikan data siap digunakan dalam pemodelan. Langkah-langkah yang dilakukan adalah:  
 
-1. **Case Formatting untuk Kolom REGION**  
-   Semua nilai dalam kolom `REGION` diformat ke huruf kapital untuk menjaga konsistensi data.
-2.  **Menghapus Data REGION 'Indonesia' yang Tidak Relevan**  
-   Data dengan region `Indonesia` dihapus karena tidak memberikan informasi spesifik terkait wilayah tertentu. Fokus hanya pada data level provinsi.  
-3. **Penambahan Data untuk Tahun 2023 dan 2024**  
-   Data untuk tahun 2023 dan 2024 ditambahkan secara manual berdasarkan data yang diambil dari BPS (Badan Pusat Statistik).   
-4. **Penambahan Kolom ISLAND**  
-   Kolom `ISLAND` ditambahkan untuk mengelompokkan wilayah berdasarkan pulau (misalnya Jawa, Sumatera, Kalimantan, dll.). Ini membantu dalam analisis lebih lanjut terkait distribusi gaji berdasarkan pulau
+### 1. Case Formatting pada Kolom `REGION`
+Semua nilai pada kolom `REGION` diformat ke **huruf kapital** untuk menjaga konsistensi dan menghindari duplikasi data akibat perbedaan penulisan (contoh: `Aceh` dan `ACEH` dianggap berbeda tanpa formatting).
 
+### 2. Penghapusan Data `REGION` yang Tidak Relevan
+Baris dengan nilai `REGION` berupa `'Indonesia'` dihapus karena data ini tidak memberikan informasi spesifik terkait wilayah tertentu. Fokus analisis hanya pada level provinsi.
 
+### 3. Penambahan Data untuk Tahun 2023 dan 2024
+Dataset awal hanya mencakup data hingga tahun 2022. Untuk melengkapi dataset hingga tahun 2024, data UMP tahun 2023 dan 2024 ditambahkan secara manual.  
+Sumber data berasal dari **Badan Pusat Statistik (BPS)** untuk memastikan akurasi dan relevansi.
+
+### 4. Penambahan Kolom `ISLAND`
+Kolom `ISLAND` ditambahkan untuk mengelompokkan provinsi berdasarkan pulau. Kelompok ini membantu dalam analisis distribusi UMP berdasarkan wilayah geografis.  
+Contoh pengelompokannya adalah sebagai berikut:
+- **Sumatera:** Aceh, Sumatera Utara, Riau, dan lain-lain.
+- **Jawa:** DKI Jakarta, Jawa Barat, Jawa Timur, dan lainnya.
+- **Kalimantan:** Kalimantan Barat, Kalimantan Timur, dll.
+
+### 5. Perubahan Tipe Data Kolom `YEAR`
+Kolom `YEAR` awalnya memiliki tipe data string (object). Tipe data ini diubah menjadi **datetime** agar dapat digunakan untuk analisis berbasis waktu dan pemodelan time series.
+
+### 6. Penanganan Missing Values
+Dataset awal tidak memiliki **missing values** pada kolom `REGION`, `SALARY`, `YEAR` maupun `ISLAND`.  
+
+### Output Data Setelah Proses
+Dataset setelah proses ini memiliki struktur berikut:
+- **Baris dan Kolom:** `(920, 4)`  
+- **Nama Kolom:** `REGION`, `SALARY`, `YEAR`, `ISLAND`  
+- **Jumlah Missing Values:**  0
 ---
 
 # Modeling
